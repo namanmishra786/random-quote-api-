@@ -1,4 +1,5 @@
-Random Quote API
+Random Quote API 
+
 Project Description
 The Random Quote API is a simple Spring Boot project that provides a RESTful API for getting and posting random quotes. This project allows users to perform CRUD (Create, Read, Update, Delete) operations on quotes and retrieve a random quote via an HTTP GET request.
 
@@ -12,7 +13,7 @@ To set up and run this project locally, follow these steps:
 Clone the Repository:
 
 bash
-Copy code
+
 git clone <repository-url>
 cd random-quote-api
 Build the Project: Ensure you have Maven or Gradle installed. Use one of the following commands to build the project:
@@ -30,12 +31,12 @@ Copy code
 Run the Application: You can run the application using the following command:
 
 bash
-Copy code
+
 mvn spring-boot:run
 or
 
 bash
-Copy code
+
 ./gradlew bootRun
 Access the API: Once the application is running, you can access the API at http://localhost:8080/api/quotes.
 
